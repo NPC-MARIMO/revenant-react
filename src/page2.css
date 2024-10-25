@@ -1,0 +1,71 @@
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateY(-1px);
+}
+
+.page2 .left {
+    width: 35vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.page2 .right {
+    width: 30vw;
+    height: 70vh;
+
+}
+
+.page2 .right h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    color: #111;
+    width: 25vw;
+    font-size: 4vh;
+    padding-top: 15vh;
+}
+
+.page2 .left img {
+    width: 100%;
+    height: 100%;
+    scale: 1;
+    object-fit: cover;
+}
+
+.page2 .right .button {
+    background-color: #666;
+    margin-top: 5vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1vh;
+    width: 40vh;
+    color: #fff;
+}
+
+.page2 .right .button .violet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(62, 0, 93);
+}
+
+.page2 .right .button h3 {
+    width: 25vh;
+    height: 22px;
+    overflow: hidden;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: gilroy;
+    font-weight: 400;
+}
